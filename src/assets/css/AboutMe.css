@@ -1,0 +1,23 @@
+#about-me {
+    padding: 60px;
+}
+
+.title {
+    color: #ff6348;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+}
+
+.gray-title {
+    color: #2f3542;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+}
+
+.text {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: left;
+    color: #2c3e50;
+}

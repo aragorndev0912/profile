@@ -1,0 +1,23 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#information {
+    margin-bottom: 30px;
+}
+
+.info-date {
+    color: #a4b0be;
+}
+
+.info-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    color: #ff7f50;
+}
+
+.info-text {
+    font-size: 0.9em;
+    margin-top: -15px;
+}

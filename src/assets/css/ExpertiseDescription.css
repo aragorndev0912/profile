@@ -1,0 +1,15 @@
+.expertise-description {
+    margin-bottom: 30px;
+}
+
+.ed-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #ff7f50;
+}
+
+.ed-description {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+    color: #57606f;
+}

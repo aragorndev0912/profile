@@ -1,0 +1,30 @@
+a {
+    text-decoration: none;
+    color: #ecf0f1;
+}
+
+.social-media {
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    width: 60px;
+
+    border: solid;
+    border-color: #ecf0f1;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 5px;
+}   
+
+.social-media:hover {
+    border-color:#ff6348;
+    cursor: pointer;
+}
+
+.social-media:hover a {
+    color:#ff6348;
+}
+
+a:hover {
+    color: #ff6348;
+}
