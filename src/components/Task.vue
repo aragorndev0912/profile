@@ -4,8 +4,8 @@
             <h5 class="task-title">{{title}}</h5>
             <p class="task-description">{{subtitle}}</p>
         </div>
-
-        <Modal :nameId="'modal_'+id" :title="title" :description="description" />
+        
+        <Modal :id="id" :images="images" :nameId="'modal_'+id" :title="title" :description="description" :uri="uri" />
     </div>
 </template>
 
@@ -15,7 +15,7 @@ import Modal from './Modal.vue'
 
 export default {
     name:'Task',
-    props:['id', 'title', 'subtitle', 'description'],
+    props:['id', 'title', 'subtitle', 'description', 'uri', 'images'],
     components:{
         Modal
     },

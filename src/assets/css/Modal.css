@@ -1,0 +1,55 @@
+.modal-content  {
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important; 
+    border: none !important;
+    background-color: #2f3542;
+}
+
+.modal-header {
+    background-color: #ff7f50;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important; 
+    border: none !important;
+    text-align: center;
+}
+
+.close {
+    color: #ffffff;
+}
+
+.close:hover {
+    color: #f1f2f6;
+}
+
+#modal_title {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.carousel-inner {
+    max-height: 350px;
+}
+
+.container-blank {
+    padding: 30px;
+}
+
+.mo-text {
+    color: #a4b0be;
+    text-align: justify;
+}
+
+.mo-span {
+    color:#ff7f50;
+}
+
+.mo-a {
+    color:#ffffff;
+}
+
+.mo-a:hover {
+    color:#f1f2f6;
+}
