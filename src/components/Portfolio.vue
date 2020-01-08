@@ -39,7 +39,7 @@ export default {
                     subtitle:'Rust',
                     description:'descripcion#0',
                     uri:'https://github.com/aragorndev0912/amaia-vm',
-                    images:['../assets/images/girl.jpg', '../assets/images/img1.jpg'],
+                    images:['images/girl.jpg', 'images/img1.jpg'],
                 },
                 {
                     id:1,
@@ -47,7 +47,7 @@ export default {
                     subtitle:'Rust',
                     description:'descripcion#1',
                     uri:'https://github.com/aragorndev0912/rpn',
-                    images:['../assets/images/img0.jpg', '../assets/images/img1.jpg'],
+                    images:['images/img0.jpg', 'images/img1.jpg'],
                 },
                 {
                     id:2,
@@ -55,7 +55,7 @@ export default {
                     subtitle:'ANSI C',
                     description:'descripcion#2',
                     uri:'https://github.com/aragorndev0912/beverly-lang',
-                    images:['../assets/images/img0.jpg', '../assets/images/img1.jpg'],
+                    images:['images/img0.jpg', 'images/img1.jpg'],
                 },
                 {
                     id:3,
@@ -63,7 +63,7 @@ export default {
                     subtitle:'ANSI C',
                     description:'descripcion#3',
                     uri:'https://github.com/aragorndev0912/Ray2D',
-                    images:['../assets/images/img0.jpg', '../assets/images/img1.jpg'],
+                    images:['images/img0.jpg', 'images/img1.jpg'],
                 },
                 {
                     id:4,
@@ -71,7 +71,7 @@ export default {
                     subtitle:'React',
                     description:'descripcion#4',
                     uri:'http://hireme.center/',
-                    images:['../assets/images/img0.jpg', '../assets/images/img1.jpg'],
+                    images:['images/img0.jpg', 'images/img1.jpg'],
                 },
                 {
                     id:5,
@@ -79,7 +79,7 @@ export default {
                     subtitle:'React',
                     description:'descripcion#5',
                     uri:'https://venepress.com/',
-                    images:['../assets/images/img0.jpg', '../assets/images/img1.jpg'],
+                    images:['images/img0.jpg', 'images/img1.jpg'],
                 },
                 {
                     id:6,
@@ -87,7 +87,7 @@ export default {
                     subtitle:'HTML',
                     description:'descripcion#6',
                     uri:'http://www.progracademy.org/',
-                    images:['../assets/images/img0.jpg', '../assets/images/img1.jpg'],
+                    images:['images/img0.jpg', 'images/img1.jpg'],
                 },
                 {
                     id:7,
@@ -95,7 +95,7 @@ export default {
                     subtitle:'PHP',
                     description:'descripcion#7',
                     uri:'http://www.progracademy.org/prg-test/',
-                    images:['../assets/images/img0.jpg', '../assets/images/img1.jpg'],
+                    images:['images/img0.jpg', 'images/img1.jpg'],
                 },
             ],
         }

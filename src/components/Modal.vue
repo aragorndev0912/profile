@@ -21,18 +21,8 @@
                         </ol>
                         <div class="carousel-inner">
                             <div v-for="(image, index) in images" :key="index" :class="(index == 0)? 'carousel-item active': 'carousel-item'">
-                                <img class="d-block w-100" src="../assets/images/girl.jpg" :alt="image">
+                                <img class="d-block w-100" :src="getImgUrl(image)" :alt="image">
                             </div>
-
-                            <!--<div class="carousel-item active">
-                            <img class="img-fluid d-block w-100" src="../assets/images/girl.jpg" alt="First slide">
-                            </div>
-                            <div class="carousel-item">
-                            <img class="img-fluid d-block w-100" src="../assets/images/girl.jpg" alt="Second slide">
-                            </div>
-                            <div class="carousel-item">
-                            <img class="img-fluid d-block w-100" src="../assets/images/girl.jpg" alt="Third slide">
-                            </div>-->
                         </div>
                         <!--<a class="carousel-control-prev" href="#c-indicators" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -69,8 +59,11 @@
 export default {
     name:'Modal',
     props:['id', 'nameId', 'title', 'description', 'uri', 'images'],
-    
-    
+    methods: {
+        getImgUrl(pic) {
+            return require('../assets/'+pic);
+        }
+    },
 }
 </script>
 
