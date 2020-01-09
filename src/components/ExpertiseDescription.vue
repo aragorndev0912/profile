@@ -1,7 +1,7 @@
 <template>
     <div class="expertise-description">
         <p class="ed-title">{{title}}</p>
-        <p class="ed-description">{{description}}</p>
+        <p class="ed-description" v-html="description"></p>
     </div>
 </template>
 

@@ -13,3 +13,11 @@
     font-weight: lighter;
     color: #57606f;
 }
+
+.ed-link {
+    color: #ff7f50;
+}
+
+.ed-link:hover {
+    color: #ff6348;
+}

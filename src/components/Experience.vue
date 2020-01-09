@@ -1,25 +1,25 @@
 <template>
     <div id="experience" class="col-12">
-        <h5 class="gray-title">Work Experience</h5>
+        <h5 class="gray-title">Experiencia profesional</h5>
         <Information 
-            date="2015 - Present"
-            title="HEAD OF MARKET RESEARCH"
-            work="Computer & Motor Ltd."
-            country="United Kingdom, London"
+            date="2013 - 2014"
+            title="Analista programador"
+            work="Professional Evaluations Solutions"
+            country="Venezuela"
         />
 
         <Information 
-            date="2012 - 2015"
-            title="MEDIA ANALYST"
-            work="BizzNiss"
-            country="United Kingdom, London"
+            date="2016 - 2017"
+            title="Analista programador"
+            work="Novared"
+            country="Venezuela"
         />
 
         <Information 
-            date="2010 - 2012"
-            title="BUDGET ADMINISTRATOR"
-            work="Somsom LLC"
-            country="United Kingdom, London"
+            date="2019 - Presente"
+            title="Desarrollador Backend y Frontend"
+            work="Anincubator"
+            country="Venezuela"
         />
 
     </div>

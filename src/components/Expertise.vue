@@ -1,21 +1,11 @@
 <template>
     <div class="col-12 expertise">
-        <h5 class="gray-title">{{title}}</h5>
+        <h5 class="gray-title">Proyectos Sociales</h5>
 
         <div class="row">
-            <div class="col-6">
-                <ExpertiseDescription  title="Professionally drive" description="Synergistically strategize customer directed resources rather than principle." />
+            <div class="col-6" v-for="(expertise, index) in expertises" v-bind:key="index">
+                <ExpertiseDescription  :title="expertise.title" :description="expertise.description" />
             </div>
-            <div class="col-6">
-                <ExpertiseDescription  title="Seamlessly leverage" description="Quickly repurpose reliable customer service with orthogonal ideas. Competently." />
-            </div>
-            <div class="col-6">
-                <ExpertiseDescription  title="Interactively incubate" description="Interactively myocardinate high standards in initiatives rather than next-generation." />
-            </div>
-            <div class="col-6">
-                <ExpertiseDescription  title="Globally streamline" description="Dynamically initiate client-based convergence vis-a-vis performance based." />
-            </div>
-        
         </div>
     </div>
 </template>
@@ -26,9 +16,31 @@ import ExpertiseDescription from './ExpertiseDescription.vue'
 
 export default {
     name:'Expertise',
-    props:['title'],
     components:{
         ExpertiseDescription,
+    },
+    data:function() {
+        return {
+            expertises:[
+                
+                {
+                    title:"Progracademy",
+                    description:`Diseñador y programador de la página web para la iniciativa Progracademy: <a class="ed-link" href="http://www.progracademy.org/" target="_blank">progracademy</a>`
+                },
+                {
+                    title:"Clases de programacion",
+                    description:`Dicte por unos meses clases de algoritmos y programacion de forma gratuita en la casa de la cultura de mi municipio`
+                },
+                // {
+                //     title:"Interactively incubate",
+                //     description:"Interactively myocardinate high standards in initiatives rather than next-generation."
+                // },
+                // {
+                //     title:"Globally streamline",
+                //     description:"Dynamically initiate client-based convergence vis-a-vis performance based."
+                // },
+            ],
+        }
     }
 
 }

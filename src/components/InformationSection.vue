@@ -1,7 +1,7 @@
 <template>
     <div id="information-section" class="col-md-6 col-12" :style="{margin:'0', padding:'0'}">
         <AboutMe />
-        <Expertise title="Expertise" />
+        <Expertise />
         <Skills />
         <Experience />
         <Education />

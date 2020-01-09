@@ -1,27 +1,21 @@
 <template>
     <div id="contact" class="col-12">
-        <h5 class="gray-title">Contact</h5>
+        <h5 class="gray-title">Contácto</h5>
 
         <form>
             <div class="form-group">
-                <label class="contact-title">Address</label>
-                <p class="contact-description">1355 Market Street, Suite 900 <br/>
-                    San Francisco, CA 94103</p>
+                <label class="contact-title">Direccion</label>
+                <p class="contact-description">Vigo, España</p>
             </div>
 
             <div class="form-group">
-                <label class="contact-title">Phone Number</label>
-                <p class="contact-description">+61 3 8376 6284</p>
-            </div>
-
-            <div class="form-group">
-                <label class="contact-title">Mobile Number</label>
-                <p class="contact-description">987 654 321</p>
+                <label class="contact-title">Numero telefonico</label>
+                <p class="contact-description">0412-2106942</p>
             </div>
 
             <div class="form-group">
                 <label class="contact-title">Email</label>
-                <p class="contact-description">coffee@amelie.me</p>
+                <p class="contact-description">aragorn.dev0912@gmail.com</p>
             </div>
         </form>
 
