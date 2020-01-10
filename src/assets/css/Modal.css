@@ -53,3 +53,8 @@
 .mo-a:hover {
     color:#f1f2f6;
 }
+
+.mo-title {
+    color:#ff7f50;
+    text-decoration: underline;
+}

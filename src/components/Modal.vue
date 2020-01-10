@@ -4,7 +4,7 @@
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
         <div class="modal-header">
-            <h5 class="modal-title" id="modal_title" >{{title}}</h5>
+            <!--<h5 class="modal-title" id="modal_title" >{{title}}</h5> -->
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
             </button>
@@ -15,9 +15,8 @@
                     <div class="col-12">
                     <!---->
                     <div :id="'c-indicators'+id" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li :data-target="'#c-indicators'+id" data-slide-to="0" class="active"></li>
-                            <li :data-target="'#c-indicators'+id" data-slide-to="1"></li>
+                        <ol class="carousel-indicators" v-if="images.length > 1">
+                            <li v-for="(image, index) in images" v-bind:key="index" :data-target="'#c-indicators'+id" :data-slide-to="index" :class="(index == 0) ? 'active' :''"></li>
                         </ol>
                         <div class="carousel-inner">
                             <div v-for="(image, index) in images" :key="index" :class="(index == 0)? 'carousel-item active': 'carousel-item'">
@@ -36,7 +35,7 @@
                     <!---->
                     </div>
                     <div class="container-blank col-12">
-                        <h4>{{title}}</h4><br/>
+                        <h4 class="mo-title">{{title}}</h4><br/>
 
 
                         <p class="mo-text" v-html="description"></p>

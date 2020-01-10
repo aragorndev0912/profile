@@ -3,7 +3,7 @@
         <h5 class="gray-title">Proyectos Sociales</h5>
 
         <div class="row">
-            <div class="col-6" v-for="(expertise, index) in expertises" v-bind:key="index">
+            <div class="col-12 col-sm-6" v-for="(expertise, index) in expertises" v-bind:key="index">
                 <ExpertiseDescription  :title="expertise.title" :description="expertise.description" />
             </div>
         </div>
@@ -25,11 +25,11 @@ export default {
                 
                 {
                     title:"Progracademy",
-                    description:`Diseñador y programador de la página web para la iniciativa Progracademy: <a class="ed-link" href="http://www.progracademy.org/" target="_blank">progracademy</a>`
+                    description:`Diseñador y programador de la página web para la iniciativa Progracademy: <br/><br/>link: <a class="ed-link" href="http://www.progracademy.org/" target="_blank">progracademy.org</a>`
                 },
                 {
                     title:"Clases de programacion",
-                    description:`Dicte por unos meses clases de algoritmos y programacion de forma gratuita en la casa de la cultura de mi municipio`
+                    description:`Dicté por unos meses clases de algoritmos y programación de forma gratuita en la casa de la cultura de mi municipio.`
                 },
                 // {
                 //     title:"Interactively incubate",
