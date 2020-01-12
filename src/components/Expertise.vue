@@ -1,10 +1,10 @@
 <template>
     <div :style="{backgroundColor:(isGray) ? '#f1f2f6' : '#ffffff'}" class="col-12 expertise">
-        <h5 class="gray-title">Proyectos Sociales</h5>
+        <h5 :class="(isGray) ? 'title' : 'gray-title'">Proyectos Sociales</h5>
 
         <div class="row">
             <div class="col-12 col-sm-6" v-for="(expertise, index) in expertises" v-bind:key="index">
-                <ExpertiseDescription  :title="expertise.title" :description="expertise.description" />
+                <ExpertiseDescription :isGray="isGray"  :title="expertise.title" :description="expertise.description" />
             </div>
         </div>
     </div>

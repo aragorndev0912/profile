@@ -1,6 +1,6 @@
 <template>
     <div :style="{backgroundColor:(isGray) ? '#f1f2f6' : '#ffffff'}" id="education" class="col-12">
-        <h5 class="title">Educación</h5>
+        <h5 :class="(isGray) ? 'title' : 'gray-title'">Educación</h5>
 
         <Information 
             date="2002 - 2006"

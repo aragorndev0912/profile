@@ -1,6 +1,6 @@
 <template>
     <div :style="{backgroundColor:(isGray) ? '#f1f2f6' : '#ffffff'}" id="portfolio" class="col-12">
-        <h5 class="title">Portfolio</h5>
+        <h5 :class="(isGray) ? 'title' : 'gray-title'">Portfolio</h5>
         <div class="row">
             <div class="col-12">
                 <p>

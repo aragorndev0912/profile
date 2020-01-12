@@ -1,14 +1,12 @@
 <template>
     <div :style="{backgroundColor:(isGray) ? '#f1f2f6' : '#ffffff'}" id="skills" class="col-12">
-        <h5 class="title">Habilidades</h5>
+        <h5 :class="(isGray) ? 'title' : 'gray-title'">Habilidades</h5>
 
         <Skill title="ANSI C" size="100" />        
-        <Skill title="React" size="90" />        
+        <Skill title="Node" size="90" />        
         <Skill title="Vue" size="100" />        
         <Skill title="Rust" size="70" />        
         <Skill title="MongoDB" size="90" />        
-        <!--<Skill title="Django" size="90" />        
-        <Skill title="PostgreSQL" size="90" />        -->
 
     </div>
 </template>

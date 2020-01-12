@@ -5,7 +5,7 @@
 
         <Hello 
             title="Hola, soy Franklin Morales!" 
-            subtitle="ANSI C, Python, Vue and React developer."
+            subtitle="ANSI C, Node, Vue and React developer."
         />
 
         <SocialMedia _url="https://www.linkedin.com/in/franklin-jose-morales-marquez-827554189/" icon="linkedin" />

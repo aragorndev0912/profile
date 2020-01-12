@@ -1,6 +1,6 @@
 <template>
     <div :style="{backgroundColor:(isGray) ? '#f1f2f6' : '#ffffff'}"  id="experience" class="col-12">
-        <h5 class="gray-title">Experiencia profesional</h5>
+        <h5 :class="(isGray) ? 'title' : 'gray-title'">Experiencia profesional</h5>
         <Information 
             date="2013 - 2014"
             title="Analista programador"
