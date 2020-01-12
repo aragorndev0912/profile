@@ -1,5 +1,5 @@
 <template>
-    <div id="skills" class="col-12">
+    <div :style="{backgroundColor:(isGray) ? '#f1f2f6' : '#ffffff'}" id="skills" class="col-12">
         <h5 class="title">Habilidades</h5>
 
         <Skill title="ANSI C" size="100" />        
@@ -19,6 +19,7 @@ import Skill from './Skill.vue'
 
 export default {
     name:'Skills',
+    props:['isGray'],
     components:{
         Skill,
     }

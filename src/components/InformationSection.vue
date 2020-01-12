@@ -1,13 +1,13 @@
 <template>
     <div id="information-section" class="col-md-6 col-12" :style="{margin:'0', padding:'0'}">
-        <AboutMe />
-        <Expertise />
-        <Skills />
-        <Experience />
-        <Education />
-        <Interests />
-        <Portfolio />
-        <Contact />
+        <AboutMe :isGray="true" />
+        <Skills :isGray="false"/>
+        <Interests :isGray="true"/>
+        <Experience :isGray="false"/>
+        <Portfolio :isGray="true"/>
+        <Education :isGray="false"/>
+        <Expertise :isGray="true"/>
+        <Contact :isGray="false"/>
     </div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-    <div id="education" class="col-12">
+    <div :style="{backgroundColor:(isGray) ? '#f1f2f6' : '#ffffff'}" id="education" class="col-12">
         <h5 class="title">Educación</h5>
 
         <Information 
@@ -46,6 +46,7 @@ import Information from './Information.vue'
 
 export default {
     name:'Education',
+    props:['isGray'],
     components:{
         Information,
     }

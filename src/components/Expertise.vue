@@ -1,5 +1,5 @@
 <template>
-    <div class="col-12 expertise">
+    <div :style="{backgroundColor:(isGray) ? '#f1f2f6' : '#ffffff'}" class="col-12 expertise">
         <h5 class="gray-title">Proyectos Sociales</h5>
 
         <div class="row">
@@ -16,6 +16,7 @@ import ExpertiseDescription from './ExpertiseDescription.vue'
 
 export default {
     name:'Expertise',
+    props:['isGray'],
     components:{
         ExpertiseDescription,
     },
@@ -31,14 +32,6 @@ export default {
                     title:"Clases de programacion",
                     description:`Dicté por unos meses clases de algoritmos y programación de forma gratuita en la casa de la cultura de mi municipio.`
                 },
-                // {
-                //     title:"Interactively incubate",
-                //     description:"Interactively myocardinate high standards in initiatives rather than next-generation."
-                // },
-                // {
-                //     title:"Globally streamline",
-                //     description:"Dynamically initiate client-based convergence vis-a-vis performance based."
-                // },
             ],
         }
     }

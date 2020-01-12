@@ -1,5 +1,5 @@
 <template>
-    <div id="interests" class="col-12">
+    <div :style="{backgroundColor:(isGray) ? '#f1f2f6' : '#ffffff'}"  id="interests" class="col-12">
         <h5 class="gray-title">Intereses</h5>
 
         <Interest v-for="(interest, index) in interests" v-bind:key="index" :title="interest.title" :description="interest.description" />
@@ -13,6 +13,7 @@ import Interest from './Interest.vue'
 
 export default {
     name:'Interests',
+    props:['isGray'],
     components:{
         Interest,
     },
