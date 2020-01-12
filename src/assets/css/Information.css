@@ -1,5 +1,21 @@
-* {
-    font-family: 'Ubuntu', sans-serif;
+
+
+.info-li {
+    list-style: none;
+    margin-left: -20px;
+    text-align: justify;
+    font-size: .9em;
+}
+
+#information {
+    color:#57606f;
+}
+
+.info-actividades {
+    font-family: 'Montserrat', sans-serif;
+    color: #2f3542;
+    font-size: .9em;
+    font-weight: 900;
 }
 
 #information {
@@ -20,4 +36,9 @@
 .info-text {
     font-size: 0.9em;
     margin-top: -15px;
+}
+
+.info-span {
+    font-weight: 600;
+    color: #57606f;
 }

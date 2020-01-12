@@ -6,6 +6,7 @@
             title="Analista programador"
             work="Professional Evaluations Solutions"
             country="Venezuela"
+            :activities="anincubator"
         />
 
         <Information 
@@ -13,6 +14,7 @@
             title="Analista programador"
             work="Novared"
             country="Venezuela"
+            :activities="[]"
         />
 
         <Information 
@@ -20,6 +22,7 @@
             title="Desarrollador Backend y Frontend"
             work="Anincubator"
             country="Venezuela"
+            :activities="[]"
         />
 
     </div>
@@ -34,7 +37,23 @@ export default {
     props:['isGray'],
     components:{
         Information
-    }
+    },
+    data:function() {
+        return {
+            anincubator: [
+                `- Migración de datos entre AWS y Youtube utilizando Python.`,
+                `- Desarrollo de servicios utilizando Ruby On Rails con Pruebas en Postman.`,
+                `- Uso de la Api de <strong class="info-span">Amazon S3</strong> para despliegue de ficheros.`,
+                `- Creación de endpoints en NestJS con TypeScript y pruebas con Insomnia.`,
+                `- Creación de endpoints con C#.`,
+                `- <strong class="info-span">Lenguajes:</strong> Ruby, TypeScript, Python.`,
+                `- <strong class="info-span">Bases de Dato:</strong> PostgreSQL, MongoDB.`,
+                `- <strong class="info-span">Framework / Librerías:</strong> Ruby on Rails, React, NestJS.`,
+                `- <strong class="info-span">Infraestructura:</strong> Amazon S3.`,
+            ],
+        }
+    },
+
 }
 </script>
 

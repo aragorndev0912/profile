@@ -7,6 +7,7 @@
             title="Primaria"
             work="U.E La Rosaleda"
             country="Venezuela"
+            :activities="[]"
         />
 
         <Information 
@@ -14,6 +15,7 @@
             title="Bachiller en Ciencias"
             work="U.E Liceo Militarizado Monseñor Arias"
             country="Venezuela"
+            :activities="[]"
         />
 
         <Information 
@@ -21,6 +23,7 @@
             title="Certificado Programación con PHP-MySQL"
             work="Universidad Central de venezuela (UCV)"
             country="Venezuela"
+            :activities="[]"
         />
 
         <Information 
@@ -28,6 +31,7 @@
             title="Certificado Programación con Java"
             work="Universidad Central de venezuela (UCV)"
             country="Venezuela"
+            :activities="[]"
         />
 
         <Information 
@@ -35,6 +39,7 @@
             title="Ingeniería en Informática"
             work="Universidad Católica Andrés Bello (UCAB)"
             country="Venezuela"
+            :activities="[]"
         />
         
     </div>

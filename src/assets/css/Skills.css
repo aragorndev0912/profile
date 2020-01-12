@@ -1,3 +1,11 @@
 #skills {
     padding: 60px;
 }
+
+.title-skill {
+    font-family: 'Montserrat', sans-serif;
+    color: #2f3542;
+    /* color: #ff6348; */
+    font-weight: 900;
+    margin-bottom: 20px;
+}
