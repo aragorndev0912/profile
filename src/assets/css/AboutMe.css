@@ -25,3 +25,12 @@
     font-family: 'Ubuntu', sans-serif;
     text-align: justify;
 }
+
+.about-link {
+    font-weight: 600;
+    color: #ff7f50;
+}
+
+.about-link:hover {
+    color: #ff6348;
+}

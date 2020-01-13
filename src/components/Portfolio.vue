@@ -6,10 +6,7 @@
                 <p class="portafolio-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-                    mollit anim id est laborum.
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
             </div>
 
@@ -34,67 +31,26 @@ export default {
             tasks:[
                 {
                     id:0,
-                    title:'amaia-vm',
-                    subtitle:'Rust',
-                    description:`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
-                    uri:'https://github.com/aragorndev0912/amaia-vm',
-                    images:['images/background.jpg'],
+                    title:'Amaia virtual machine',
+                    subtitle:'Rust (artículo)',
+                    description:`<strong>Amaia virtual machine (AVM)</strong>, es un intérprete para el lenguaje de programación Amaia (en desarrollo), 
+                    el cual no es mas que una simplificación del lenguaje programación Basic. AVM lee ficheros con extensión 
+                    <string>.avm</string>, el contenido del fichero esta definido por una series de números hexadecimales, los cuales poseen 
+                    las instrucciones a ser ejecutadas por la <strong>AVM.</strong>`,
+                    uri:[{title:'Github', uri:'https://github.com/aragorndev0912/amaia-vm'}, {title:'Artículo en Linkedin', uri:'https://www.linkedin.com/pulse/tiny-virtual-machine-franklin-jose-morales-marquez/'}],
+                    images:['images/amaia.jpg'],
                 },
                 {
                     id:1,
-                    title:'RPN Notation',
-                    subtitle:'Rust',
-                    description:`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
-                    uri:'https://github.com/aragorndev0912/rpn',
-                    images:['images/background.jpg', 'images/background.jpg'],
-                },
-                {
-                    id:2,
-                    title:'Beverly-lang',
-                    subtitle:'ANSI C',
-                    description:`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
-                    uri:'https://github.com/aragorndev0912/beverly-lang',
-                    images:['images/background.jpg', 'images/background.jpg'],
-                },
-                {
-                    id:3,
-                    title:'RAY2D Engine',
-                    subtitle:'ANSI C',
-                    description:`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
-                    uri:'https://github.com/aragorndev0912/Ray2D',
-                    images:['images/background.jpg', 'images/background.jpg'],
-                },
-                {
-                    id:4,
-                    title:'Hireme Page',
-                    subtitle:'React',
-                    description:`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
-                    uri:'http://hireme.center/',
-                    images:['images/background.jpg'],
-                },
-                {
-                    id:5,
-                    title:'Venepress',
-                    subtitle:'React',
-                    description:`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
-                    uri:'https://venepress.com/',
-                    images:['images/background.jpg', 'images/background.jpg'],
-                },
-                {
-                    id:6,
-                    title:'Progracademy Page',
-                    subtitle:'HTML',
-                    description:`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
-                    uri:'http://www.progracademy.org/',
-                    images:['images/background.jpg', 'images/background.jpg'],
-                },
-                {
-                    id:7,
-                    title:'Progracademy Admin',
-                    subtitle:'PHP',
-                    description:`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
-                    uri:'http://www.progracademy.org/prg-test/',
-                    images:['images/background.jpg', 'images/background.jpg'],
+                    title:'RPN para Amaia-lang.',
+                    subtitle:'Rust (artículo)',
+                    description:`El intérprete del lenguaje de programación Amaia (próximamente se explicará), internamente utilizará la Notación 
+                    Polaca Inversa. para la evaluación de las expresiones aritméticas. Se desarrolló un módulo escrito en el lenguaje Rust que permite 
+                    evaluar expresiones definidas dentro de un fichero de texto con extensión .ope, escritas utilizando la Notación Algebraica, 
+                    para luego ser convertidas a expresiones definidas bajo la Notación Polaca Inversa y al final evaluarlas y obtener el resultado 
+                    de la operaciones.`,
+                    uri:[{title:'Github', uri:'https://github.com/aragorndev0912/rpn'}, {title:'Artículo en Linkedin', uri:'https://www.linkedin.com/pulse/evaluaci%C3%B3n-aritm%C3%A9tica-para-un-compilador-o-int%C3%A9rprete-franklin-jose/'}],
+                    images:['images/rpn.jpg'],
                 },
             ],
         }

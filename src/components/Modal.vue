@@ -41,7 +41,10 @@
                         <p class="mo-text" v-html="description"></p>
 
                         <br/>
-                        <span class="mo-span">Link: </span> <a class="mo-a" :href="uri" target="_blank">{{uri}}</a>
+                        <div v-for="(link, index) in uri" v-bind:key="index">
+                            <span class="mo-span">- </span> <a class="mo-a" :href="link.uri" target="_blank">{{link.title}}</a>
+                        </div>
+                    
                     </div>
                 </div>
             </div>
