@@ -4,9 +4,9 @@
         <div class="row">
             <div class="col-12">
                 <p class="portafolio-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    A continuación, presento algunos de mis trabajos personales y proyectos sociales que he realizado 
+                    en el transcurso del tiempo, algunos tienen links a articulos que he escrito en Linkedin y todos 
+                    tienen el repositorio para poder descargar el código fuente.
                 </p>
             </div>
 
