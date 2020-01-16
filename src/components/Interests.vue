@@ -21,16 +21,16 @@ export default {
         return {
             interests:[
                 {
-                    title:"Desarrollo de interpretes y compiladores",
-                    description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. text of the printing and typesetting industry."
+                    title:"+ Desarrollo de compiladores e intérpretes",
+                    description:"Actualmente me encuentro desarrollando un intérprete en ANSI C."
                 },
                 {
-                    title:"Desarrollo de videojuegos",
-                    description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. text of the printing and typesetting industry."
+                    title:"+ Desarrollo de videojuegos",
+                    description:`Es un hobbie que disfruto mucho, utilizo la librería <a class="about-link" href="https://www.raylib.com/" target="_blank">Raylib</a> para realizar todas mis pruebas.`,
                 },
                 {
-                    title:"Programacion de motores graficos",
-                    description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. text of the printing and typesetting industry."
+                    title:"+ Desarrollo web.",
+                    description:"Disfruto mucho con el desarrollo de single pages applications utilizando <strong>Vue</strong>, <strong>NestJS</strong> y <strong>Firebase</strong>"
                 },
             ]
         }
