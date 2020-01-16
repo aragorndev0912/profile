@@ -6,7 +6,7 @@
             title="Analista programador"
             work="Professional Evaluations Solutions"
             country="Venezuela"
-            :activities="anincubator"
+            :activities="pes"
         />
 
         <Information 
@@ -14,7 +14,7 @@
             title="Analista programador"
             work="Novared"
             country="Venezuela"
-            :activities="[]"
+            :activities="novared"
         />
 
         <Information 
@@ -22,7 +22,7 @@
             title="Desarrollador Backend y Frontend"
             work="Anincubator"
             country="Venezuela"
-            :activities="[]"
+            :activities="anincubator"
         />
 
     </div>
@@ -40,14 +40,27 @@ export default {
     },
     data:function() {
         return {
+            pes:[
+                `- Maquetación de ventanas con Bootstrap.`,
+                `- Implementación de estilos con CSS y LESS.`,
+                `- Desarrollo de servicios utilizando <strong>CakePHP</strong> con pruebas en Postman.`,
+                `- <strong class="info-span">Bases de Datos:</strong> PostgreSQL, MySQL.`,
+
+            ],
+            novared: [
+                `- Desarrollo de servicios utilizando <strong>Django</strong> con Pruebas en Postman.`,
+                `- <strong class="info-span">Lenguajes:</strong> PHP, Javascript, Python.`,
+                `- <strong class="info-span">Bases de Datos:</strong> PostgreSQL, MySQL.`,
+                `- <strong class="info-span">Framework / Librerías:</strong> Django, CakePHP.`,
+            ],
             anincubator: [
-                `- Migración de datos entre AWS y Youtube utilizando Python.`,
+                `- Migración de datos entre <strong>AWS</strong> y <strong>Youtube</strong> utilizando Python.`,
                 `- Desarrollo de servicios utilizando Ruby On Rails con Pruebas en Postman.`,
                 `- Uso de la Api de <strong class="info-span">Amazon S3</strong> para despliegue de ficheros.`,
                 `- Creación de endpoints en NestJS con TypeScript y pruebas con Insomnia.`,
-                `- Creación de endpoints con C#.`,
+                `- Backend .NET Framework.`,
                 `- <strong class="info-span">Lenguajes:</strong> Ruby, TypeScript, Python.`,
-                `- <strong class="info-span">Bases de Dato:</strong> PostgreSQL, MongoDB.`,
+                `- <strong class="info-span">Bases de Datos:</strong> PostgreSQL, MongoDB.`,
                 `- <strong class="info-span">Framework / Librerías:</strong> Ruby on Rails, React, NestJS.`,
                 `- <strong class="info-span">Infraestructura:</strong> Amazon S3.`,
             ],
