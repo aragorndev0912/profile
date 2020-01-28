@@ -4,13 +4,13 @@
 
         <form>
             <div class="form-group">
-                <label class="contact-title">Direccion</label>
+                <label class="contact-title">Dirección</label>
                 <p class="contact-description">Vigo, España</p>
             </div>
 
             <div class="form-group">
-                <label class="contact-title">Numero telefonico</label>
-                <p class="contact-description">0412-2106942</p>
+                <label class="contact-title">Número telefónico</label>
+                <p class="contact-description">+34 699725639</p>
             </div>
 
             <div class="form-group">

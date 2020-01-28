@@ -2,7 +2,7 @@
     <div :style="{backgroundColor:(isGray) ? '#f1f2f6' : '#ffffff'}" id="skills" class="col-12">
         <h5 :class="(isGray) ? 'title' : 'gray-title'">Habilidades</h5>
 
-        <h6 class="title-skill">+ Lenguajes de programacion:</h6>
+        <h6 class="title-skill">+ Lenguajes de programación:</h6>
         <Skill title="ANSI C" size="90" />        
         <Skill title="Python" size="70" />        
         <Skill title="Javascript" size="80" />      

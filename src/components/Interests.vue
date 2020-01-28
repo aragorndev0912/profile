@@ -26,7 +26,7 @@ export default {
                 },
                 {
                     title:"+ Desarrollo de videojuegos",
-                    description:`Es un hobbie que disfruto mucho, utilizo la librería <a class="about-link" href="https://www.raylib.com/" target="_blank">Raylib</a> para realizar todas mis pruebas.`,
+                    description:`Es un hobbie que disfruto mucho, utilizo la librería <a class="about-link" href="https://www.raylib.com/" target="_blank">Raylib</a> para realizar todos mis proyectos.`,
                 },
                 {
                     title:"+ Desarrollo web.",

@@ -7,12 +7,12 @@
             desarrollando un interprete para un lenguaje de programación llamado 
             <a class="about-link" href="https://github.com/aragorndev0912/beverly-lang" target="_blank">Beverly</a> escrito en <strong>ANSI C</strong>. <br/><br/>
             
-            Me gusta la programación de videojuegos, para eso utilizo una librería de <strong>C</strong>
+            <!-- Me gusta la programación de videojuegos, para eso utilizo una librería de <strong>C</strong>
             llamada <a class="about-link" href="https://www.raylib.com/" target="_blank">Raylib</a>, desde que la conocí fue amor a primera vista,
             ya que, simplifica mucho escribir código y es relativamente fácil las construcciones de prototipos.<br/>
-            <br/>
+            <br/> -->
 
-            A nivel laboral tengo experiencia tanto en Frontend como en Backend utilizando herramientas de <strong>Javascript</strong>
+            Tengo experiencia tanto en Frontend como en Backend utilizando herramientas de <strong>Javascript</strong>
             como <strong>React</strong>, <strong>Vue</strong>, <strong>NestJS</strong> y <strong>Express</strong>, junto con bases de datos
             relacionales y no relacionales como <strong>PostgreSQL</strong> y <strong>MongoDB</strong>.    
         </p>
